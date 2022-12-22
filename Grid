@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link href="GridCSS.css" rel="stylesheet" type="text/css"></link><!--Css link -->
+	</head>
+	
+	<body>	
+	
+	<div class="Menu">
+		<div class="MenuItem"><img src="LogoImage.png" alt="Image of Coleg Sir Gar Logo" width="25%"></div>
+		<div class="MenuItem"><h1>Coleg Sir Gar</h1></div>
+	</div>
+	
+	
+	<center><b><u><h1>CSS Grid</h1></u></b></center>
+		
+		<div class="gridContainer"><!--Create a Grid container-->
+			<div class="item"><h2>Item 1</h2>
+				<p>Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe. 
+				Sit eveniet delectus et error eaque ea voluptas dolorum 
+				ea cupiditate adipisci! Sed voluptatum provident eos nihil 
+				similique aut aliquam perspiciatis est voluptatem dolores 
+				non autem sint!</p>
+			</div>
+			
+			<div class="item"><h2>Item 2</h2>
+				<p>Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe.</p>
+			</div>
+			
+			<div class="item"><h2>Item 3</h2>
+				<p>Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe.</p>
+			</div>
+			
+			<div class="item"><h2>Item 4</h2>
+				<p>Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe. 
+				Sit eveniet delectus et error eaque ea voluptas dolorum 
+				ea cupiditate adipisci! Sed voluptatum provident eos nihil 
+				similique aut aliquam perspiciatis est voluptatem dolores 
+				non autem sint! </p>
+			</div>
+			
+			<div class="item"><h2>Item 5</h2>
+				<p>Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe. </p>
+			</div>
+			<div class="item"><h2>Item 6</h2>
+				<p>Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe.<br><br> 
+				Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe.
+				Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe.<br><br> 
+				Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe.</p>
+			</div>
+			
+			<div class="item"><h2>Item 7</h2>
+				<p>Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe. 
+				Sit eveniet delectus et error eaque ea voluptas dolorum 
+				ea cupiditate adipisci! Sed voluptatum provident eos nihil 
+				similique aut aliquam perspiciatis est voluptatem dolores 
+				non autem sint! </p>
+			</div>
+			
+			<div class="item"><h2>Item 8</h2>
+				<p>Lorem ipsum dolor sit amet. Id suscipit similique ut 
+				facere tenetur et corrupti iure ut dicta repellendus vel 
+				deserunt excepturi aut autem dolores aut commodi consectetur. 
+				Et iste voluptatem et blanditiis blanditiis 33 saepe. </p>
+			</div>
+			<div class="item"><h2>Item 9</h2>
+				
+				<center><img src="SampleImage.png" alt="Image of Coleg Sir Gar Main Building" width="100%"></center>
+			</div>
+		</div>
+	
+	</body>
+</html>
