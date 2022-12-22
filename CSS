@@ -1,0 +1,99 @@
+body{background-color: #d9bcbc;}
+
+div{
+	font-size:large;
+}
+
+h1{
+color:ffffff;
+align-items: center;
+text-align: center;
+}
+
+h2{
+color:ffffff;
+align-items: center;
+text-align: center;
+}
+
+.gridContainer{
+	maxwidth: 100%;
+	margin: 100px auto;
+	padding: 10px;	
+	display: grid; /*set display to grid*/
+	
+	grid-template-columns: 1fr 1fr 1fr; /* set 3 equal columns */
+	/*column-gap: 10px;
+	row-gap: 10px;*/
+	gap: 20px; /*combined row/column*/
+	
+	grid-auto-rows: minmax(200px, auto); set all items to minimum height 200px or match content 
+	grid-template-rows: 200px 100px 200px; set row height individually
+
+	align-items: start; /*start, end align text to start/end*/
+	justify-content: center ;
+}
+
+.item{
+	background: #ccc;
+	color: #000;
+	padding: 20px;
+	border: #ddd 2px solid;
+	/*text-align: center;*/
+}
+
+.item:nth-of-type(1){ /*target the 4th item*/
+	background-color: #bbb;
+	
+	/*grid-column-start:1; /* start column on 1*/
+	/*grid-column-end:3; /* end column on 3*/
+	grid-column: 1 / 3;  /*alternative spacing */
+}
+
+.item:nth-of-type(3){ /*target the 4th item*/
+	background-color: #eee;
+	
+	/*grid-row-start:1; /* start column on 1*/
+	/*grid-row-end:3; /* end column on 3*/
+	grid-row: 2 / 4;  /*alternative spacing */
+}
+
+.item:nth-of-type(6){ /*target the 4th item*/
+	background-color: #eee;
+	
+	/*grid-row-start:3; /* start column on 1*/
+	/*grid-row-end:5; /* end column on 3*/
+	grid-row: 3 / 5;  /*alternative spacing */
+}
+
+.item:nth-of-type(5){ /*target the 4th item*/
+	background-color: #eee;
+}
+
+.Menu{
+	maxwidth: 100%;
+	margin: 100px auto;
+	padding: 10px;	
+	display: grid; /*set display to grid*/
+	
+	grid-template-columns: 1fr 1fr; /* set 2 equal columns */
+	/*column-gap: 10px;
+	row-gap: 10px;*/
+	gap: 20px; /*combined row/column*/
+	
+	grid-auto-rows: minmax(200px, auto); set all items to minimum height 200px or match content 
+	grid-template-rows: 100px 200px ; set row height individually
+
+	align-items: start; /*start, end align text to start/end*/
+	justify-content: center ;
+}
+
+.MenuItem{
+	/*background: #ccc;*/
+	color: #000;
+	/*padding: 20px;*/
+	/*border: #ddd 2px solid;*/
+	text-align: center;
+}
+
+
